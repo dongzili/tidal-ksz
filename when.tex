@@ -1,0 +1,22 @@
+One of the main concerns about employing Cosmic Tidal Reconstruction is that it may import additional noise.
+
+Now I am going to address under which conditions, the gain of perform tidal reconstruction will far exceeds the loss.
+
+First, let us demonstrate the different information encorporated in the foreground substracted density field and the tidal reconstructed field.
+To better compare them, we calculate the velocity field directly from the foreground substracted field.
+In Fig.\ref{fig:vmode}, the upper panel shows the 
+correlation $r(k_\perp,k_\parallel)$ between the real velocity field $v_z^{real}$ from simulation and $v_z^{fs}$; 
+the lower panel shows the
+correlation r between $v_z^{real}$ and $\hat v_z$. The background color indicating the level of powerspectrum of $v_z^{real}$. 
+As we can see, the tidal reconstruction procedure really retrieve the part of velocity that matters most.
+Moreover, if we further calculate kSZ signal with the foreground substracted field, its correlation coefficient r with the original signal will be close to 0.
+
+To better understand the reason, let's write Eq.(\ref{eq:ksz}) in Fourier space.\begin{eqnarray}
+\Theta(\bm{k_\perp})\equiv \Theta(k_x,k_y,0)=\int d^3k \delta(\bm{k}) v_z(\bm{k_\perp}-\bm{k})\,
+\end{eqnarray}
+
+Since $v(\bm{k})\propto \delta(\bm{k})\frac{k_z}{k^2}$, its amplitudes drops much faster than $delta(\bm{k})$ when k gets larger, therefore could be consider as delta function in original signal when $k_\perp>>0.01$.
+However, as the foreground contaminate the large scale signal, we loose the peak in delta function and hence select total different part of the $\delta$ in the mock kSZ signal.
+On the other hand, when we perform the Tidal Reconstruction, we retrieve the modes with small $k_z$ and tolerable $k_\perp$, we partly recover the delta function, and get correlated signal.
+
+The correlation coefficient is not very high, because the drawback that we lost the smallest $k_\perp$ modes. So there is a optimal situation, when we still have the information in k~0.1, then we would be able to retrieve better kSZ signal without tidal reconstruction.

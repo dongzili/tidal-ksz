@@ -1,0 +1,81 @@
+\documentclass[aps,prl,twocolumn,showpacs,superscriptaddress,groupedaddress,nofootinbib]{revtex4}  % for review and submission
+\usepackage{graphicx}  % needed for figures
+\usepackage{dcolumn}   % needed for some tables
+\usepackage{bm}        % for math
+\usepackage{amsmath,amssymb}   % for math
+\usepackage{aas_macros}
+\usepackage{multirow}
+\usepackage{color}
+\usepackage{verbatim}
+\usepackage{times}
+\newcommand{\mr}{\mathrm}
+% avoids incorrect hyphenation, added Nov/08 by SSR
+\hyphenation{ALPGEN}
+\hyphenation{EVTGEN}
+\hyphenation{PYTHIA}
+\newcommand{\yr}{\ensuremath{\,{\rm yr}}}
+\newcommand{\cm}{\ensuremath{\,{\rm cm}}}
+\newcommand{\m}{\ensuremath{\,{\rm m}}}
+\newcommand{\km}{\ensuremath{\,{\rm km}}}
+\newcommand{\pc}{\ensuremath{\,{\rm pc}}}
+\newcommand{\Mpc}{\ensuremath{\,{\rm Mpc}}}
+\newcommand{\K}{\ensuremath{\, {\rm K}}}
+\newcommand{\mK}{\ensuremath{\, {\rm mK}}}
+\newcommand{\psr}{\ensuremath{\,{\rm sr}^{-1}}}
+\newcommand{\Hz}{\ensuremath{\, {\rm Hz}}}
+\newcommand{\kHz}{\ensuremath{\, {\rm kHz}}}
+\newcommand{\MHz}{\ensuremath{\, {\rm MHz}}}
+\newcommand{\erg}{\ensuremath{\,{\rm erg}}}
+\newcommand{\eV}{\ensuremath{\,{\rm eV}}}
+\newcommand{\keV}{\ensuremath{\,{\rm keV}}}
+\newcommand{\Jy}{\ensuremath{\,{\rm Jy}}}
+\newcommand{\Msun}{\ensuremath{{M_\sun}}}
+\newcommand{\Lsun}{\ensuremath{{L_\sun}}}
+\newcommand{\Zsun}{\ensuremath{{Z_\sun}}}
+\newcommand{\tsec}{\ensuremath{{\rm s}}}
+\newcommand{\nur}{\ensuremath{{\nu_R}}}
+\newcommand{\nul}{\ensuremath{{\nu_L}}}
+\newcommand{\los}{l.o.s.}
+\newcommand{\tcb}{\textcolor{blue}}
+
+\begin{document}
+% The following information is for internal review, please remove them for submission
+\widetext
+% the following line is for submission, including submission to the arXiv!!
+%\hspace{5.2in} \mbox{Fermilab-Pub-04/xxx-E}
+
+\title{Cross Relate Tidal Reconstructed 21cm Signal with Kinematic Sunyaev-Zel'dovich Effect: A New Probe for Missing Baryons at Redshift 1}
+\input author.tex
+\input abstract.tex
+\pacs{}
+\maketitle
+
+%{\it Introduction.}---
+\section{Introduction}
+\input introduction.tex
+
+%{\it Cosmic Tidal Reconstruction.}---
+\section{Algorithm}
+\subsection{Cosmic Tidal Reconstruction}
+\input tide.tex
+
+%{\it Velocity Reconstruction and kSZ signals}---
+\subsection{Velocity Reconstruction and kSZ signals}
+\input cross.tex
+
+%{\it Simulations.}---
+\section{Simulations}
+\subsection{Simulation Set up}
+\input simulation.tex
+\subsection{results}
+\input result.tex
+\section{Discussion}
+\subsection{Behavior of the kSZ signal}
+\subsection{When to apply Tidal Reconstruction}
+\input when.tex
+\subsection{Statistical Noise}
+
+\bibliographystyle{apsrev}
+\bibliography{cro}
+
+\end{document}

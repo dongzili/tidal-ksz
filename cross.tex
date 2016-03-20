@@ -1,0 +1,35 @@
+\indent
+The temperature fluctuations caused by kSZ effect is:
+\begin{eqnarray}
+\label{eq:ksz}
+\Theta_{kSZ}(\hat n)\equiv\frac{\Delta T_{kSZ}}{T_{CMB}}
+=-\frac{1}{c}\int d\eta g(\eta) \bm{p}_\parallel\ ,
+\end{eqnarray}
+where $\eta(z)$ is the comoving distance at redshift z, $g(\eta)=e^{-\tau} d\tau/d\eta$ , $\tau$ is the optical depth to Thomson scattering, $\bm{p}_\parallel=(1+\delta)\bm{v}_\parallel$, with $\delta$ the electron overdensity. 
+
+Since direct cross correlations between kSZ signal and density field will vanish due to the cancellation of positive and negative velocity, we first construct a 3D velocity field\cite{Shao11} from the clean large scale density field $\kappa_c$.
+
+In linear region, the continuity equation goes like:
+$\dot \delta+\nabla \cdot \bm{v}=0$, 
+where $\bm{v}$ is the peculiar velocity and $\delta$ is the matter overdensity. 
+Since the 21cm density field is believed to well trace the dark matter fields in low redshift, we use $\kappa_c$ here, instead of $\delta$.
+
+Therefore, we get velocity field:
+\begin{eqnarray}
+	\label{eq:v}
+\hat v_z(\bm{k})=i a H \frac{d\mathrm{ln}D}{d\mathrm{ln}a}\kappa(\bm{k})\frac{k_z}{k^2}\,
+\end{eqnarray}
+where D(a) is the linear growth function.
+
+As we can see, $v_z \propto \frac{k_z}{k^2}$, indicating the most prominent signal comes from small k mode, which corresponds to large scale structure. This partly consolidate our motivation for the tidal reconstruction procedure.
+
+To compare with the original kSZ signal, we calculate the $\hat\Theta(\bm{n})$ using reconstructed velocity field. 
+
+However, before apply Eq.(\ref{eq:ksz}) we notice that the additional term $\frac{k_z}{k^2}$ in Eq.(\ref{eq:v})
+will strongly amplify the noise in small k modes. Therefore, we apply a Wiener filter similar to Eq.(\ref{eq:wiener}) for the velocity field.
+
+Then we use the orignal 21cm density field as $\delta$, 
+and reconstruct the kSZ signal following Eq.(\ref{eq:ksz}). 
+We compare it with the original signal directly from simulations.
+
+
