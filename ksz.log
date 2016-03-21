@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.30)  20 MAR 2016 09:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.30)  20 MAR 2016 22:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -299,91 +299,94 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-(./author.tex) (./abstract.tex
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+(./abstract.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+LaTeX Font Info:    Try loading font information for U+msb on input line 11.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.51 \maketitle
+               
+? 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
- (./introduction.tex
+(./introduction.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 
-Package natbib Warning: Citation `Cook14' on page 1 undefined on input line 3.
+
+Package natbib Warning: Citation `Cook14' on page 1 undefined on input line 1.
 
 
 Package natbib Warning: Citation `Fukugita98' on page 1 undefined on input line
- 3.
+ 1.
 
 
 Package natbib Warning: Citation `Komatsu11' on page 1 undefined on input line 
-3.
+1.
 
 
 Package natbib Warning: Citation `Hinshaw13' on page 1 undefined on input line 
-3.
+1.
 
-! Undefined control sequence.
-l.4 At $z\lessim
-                 2$ the observed baryons in collapsed
-? 
 
-Package natbib Warning: Citation `Soltan06' on page 1 undefined on input line 6
+Package natbib Warning: Citation `Soltan06' on page 1 undefined on input line 5
 .
 
 
 Package natbib Warning: Citation `Salucci99' on page 1 undefined on input line 
-8.
+7.
 
 
-Package natbib Warning: Citation `Werk' on page 1 undefined on input line 8.
+Package natbib Warning: Citation `Werk' on page 1 undefined on input line 7.
 
 
-Package natbib Warning: Citation `Dave2010' on page 1 undefined on input line 9
+Package natbib Warning: Citation `Dave2010' on page 1 undefined on input line 8
 .
 
 
 Package natbib Warning: Citation `Sunyae72' on page 1 undefined on input line 1
-1.
+0.
 
 
 Package natbib Warning: Citation `Sunyaev80' on page 1 undefined on input line 
-11.
+10.
 
 
 Package natbib Warning: Citation `Hand2012' on page 1 undefined on input line 2
-0.
+4.
 
 
 Package natbib Warning: Citation `Shao2011' on page 1 undefined on input line 2
-0.
+4.
 
 
-Package natbib Warning: Citation `Li2014' on page 1 undefined on input line 20.
+Package natbib Warning: Citation `Li2014' on page 1 undefined on input line 24.
 
 
 
 Package natbib Warning: Citation `Hill2016' on page 1 undefined on input line 2
-5.
-
-
-Package natbib Warning: Citation `2012:pen' on page 1 undefined on input line 3
 7.
 
 
-Package natbib Warning: Citation `2015:zhu' on page 1 undefined on input line 3
-7.
+Package natbib Warning: Citation `2012:pen' on page 1 undefined on input line 4
+2.
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./tide.tex
+
+Package natbib Warning: Citation `2015:zhu' on page 1 undefined on input line 4
+2.
+
+) (./tide.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
 Package natbib Warning: Citation `2012:pen' on page 2 undefined on input line 1
 0.
@@ -393,8 +396,8 @@ Package natbib Warning: Citation `2015:zhu' on page 2 undefined on input line 1
 0.
 
 
-Package natbib Warning: Citation `2015:zhu' on page 2 undefined on input line 1
-8.
+Package natbib Warning: Citation `2015:zhu' on page 2 undefined on input line 2
+0.
 
 ) (./cross.tex
 
@@ -406,42 +409,31 @@ Package natbib Warning: Citation `Shao11' on page 2 undefined on input line 10.
 Package natbib Warning: Citation `2013:code' on page 2 undefined on input line 
 9.
 
-<vmode.pdf, id=17, 216.81pt x 361.35pt>
-File: vmode.pdf Graphic file (type pdf)
- <use vmode.pdf>
-Package pdftex.def Info: vmode.pdf used on input line 19.
-(pdftex.def)             Requested size: 244.79782pt x 408.01749pt.
-
 
 Package natbib Warning: Citation `2014SPIE.9145E..22B' on page 2 undefined on i
-nput line 35.
+nput line 24.
 
 
 Package natbib Warning: Citation `2014SPIE.9145E..4VN' on page 2 undefined on i
-nput line 35.
+nput line 24.
 
 
 Package natbib Warning: Citation `2012IJMPS..12..256C' on page 2 undefined on i
-nput line 36.
+nput line 25.
 
 
 Package natbib Warning: Citation `2015ApJ...798...40X' on page 2 undefined on i
-nput line 36.
+nput line 25.
+
+
+Package natbib Warning: Citation `2013ApJ...763L..20M' on page 2 undefined on i
+nput line 34.
+
+
+Package natbib Warning: Citation `2013MNRAS.434L..46S' on page 2 undefined on i
+nput line 34.
 
 [2]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 38.
-
-
-Package natbib Warning: Citation `2013ApJ...763L..20M' on page 3 undefined on i
-nput line 45.
-
-
-Package natbib Warning: Citation `2013MNRAS.434L..46S' on page 3 undefined on i
-nput line 45.
-
-) (./result.tex
 Package epstopdf Info: Source file: <powermomen15.eps>
 (epstopdf)                    date: 2016-03-19 21:36:16
 (epstopdf)                    size: 12113 bytes
@@ -450,64 +442,82 @@ Package epstopdf Info: Source file: <powermomen15.eps>
 (epstopdf)                    size: 9792 bytes
 (epstopdf)             Command: <repstopdf --outfile=powermomen15-eps-converted
 -to.pdf powermomen15.eps>
-(epstopdf)             \includegraphics on input line 7.
+(epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
- <powermomen15-eps-converted-to.pdf, id=29, 433.62pt x 722.7pt>
+ <powermomen15-eps-converted-to.pdf, id=31, 433.62pt x 722.7pt>
 File: powermomen15-eps-converted-to.pdf Graphic file (type pdf)
 
 <use powermomen15-eps-converted-to.pdf>
-Package pdftex.def Info: powermomen15-eps-converted-to.pdf used on input line 7
-.
+Package pdftex.def Info: powermomen15-eps-converted-to.pdf used on input line 5
+0.
 (pdftex.def)             Requested size: 244.79726pt x 349.4394pt.
-) (./when.tex [3 <./vmode.pdf>]
+) (./result.tex) (./when.tex
+<vmode.pdf, id=32, 216.81pt x 361.35pt>
+File: vmode.pdf Graphic file (type pdf)
+ <use vmode.pdf>
+Package pdftex.def Info: vmode.pdf used on input line 3.
+(pdftex.def)             Requested size: 244.79782pt x 408.01749pt.
+ [3 <./powermomen15-eps-converted-to.pdf> <./vmode.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 21.
+Package natbib Warning: Citation `2015:zhu' on page 4 undefined on input line 4
+0.
 
+) (./error.tex
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.4 ...}+C_l^{ksz}+C_l^{CMB,N}}{C_^{kSZ,\Delta z}}
+                                                  (1+\frac{C^N_{\hat \Theta}...
+
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.5 \end{eqnarray}
+                  
+? 
 )
 No file ksz.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[4 <./powermomen15-eps-converted-to.pdf>] (./ksz.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
- ) 
+[4] (./ksz.aux) ) 
 Here is how much of TeX's memory you used:
- 4366 strings out of 495028
- 55790 string characters out of 6181496
- 135839 words of memory out of 5000000
- 7446 multiletter control sequences out of 15000+600000
- 33873 words of font info for 81 fonts, out of 8000000 for 9000
+ 4377 strings out of 495028
+ 55916 string characters out of 6181496
+ 139839 words of memory out of 5000000
+ 7455 multiletter control sequences out of 15000+600000
+ 32970 words of font info for 86 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
- 38i,8n,26p,481b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-b10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ksz.pdf (4 pages, 247934 bytes).
+ 38i,11n,26p,509b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
+ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ksz.pdf (4 pages, 267593 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 137 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

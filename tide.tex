@@ -5,13 +5,15 @@ The basic steps are as follows.
 
 First, we filter for the part of information corresponding to linear small scale structure from the 21cm density field.
 
-To achieve this, (1) Convolve the field with a Gaussian kernal
+(1) Convolve the field with a Gaussian kernal
 $S(\bm{k})=e^{-k^2R^2/2}$, 
 we take $R=1.25\ \mr{Mpc}/h$ \cite{2012:pen}\cite{2015:zhu},
 and expect it to filter out the nonlinear structures in small scales.
+
 (2) Gaussianize the smoothed field, by taking 
 $\delta_g=\mathrm{ln}(1+\delta)$, 
 this is to allieviate the problem that the filter we apply in next step heavily weights the high density region.
+
 (3) Convolve with filter $W_i(\bm{k})$ which filters for the small scale structures, 
 $W_i(\bm{k})=(\frac{P(k)f(k)}{P_{tot}^2(k)})^{\frac{1}{2}}\hat{k}_i$,
 where i corresponds to $k_x,k_y$ directions, $P_{tot}=P+P_{noise}$ is the observed powerspectrum, f is a function related to the redshift and linear growth funcion of the universe, see 
@@ -25,6 +27,7 @@ To avoid error caused by peculiar velocity, we only consider the shear field in 
 (perpendicular to the line of sight).
 $\gamma_1=(\delta_g^{w1})^2-(\delta_g^{w2})^2$,
 $\gamma_2=2\delta_g^{w1}\delta_g^{w2}$.
+
 (2) Reconstruct 3D density field from Possion equations.
 \begin{eqnarray}
 \label{eq:k3d}

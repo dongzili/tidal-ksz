@@ -14,17 +14,6 @@ Each simulation includes $2048^3$ particles in a $(1.2\mr{Gpc}/h)^3$ box.
 %$k_0=0.05\;\mr{Mpc}^{-1}$ and scalar spectral index $n_s=0.968$.
 In the following analysis we use outputs at $z=1$.
 
-\begin{figure}[tbp]
-	\begin{center}
-		\includegraphics[width=0.48\textwidth]{vmode.pdf}
-	\end{center}
-	\vspace{-0.7cm}
-	\caption{(Top) the correlation $r(k_\perp,k_\parallel)$ between the real velocity field $v_z^{real}$ and $\hat v_z$ from the tidal reconstructed field; 
-(bottom) the correlation r between $v_z^{real}$ and $v_z^{fs}$ from the foreground substracted field. 
-The background color indicating the level of powerspectrum of $v_z^{real}$ in logrithm, $lg(P_{v_z^{real}})$}. 
-\label{fig:vmode}
-\end{figure}
-
 For simplicity, we assume the experimental
 noise to be zero above a cut off scale and infinity below the cut off scale.
 This is a reasonable approximation for a filled aperture experiment, which
@@ -55,4 +44,15 @@ Then we get the reconstructed clean field $\hat \kappa_c$ from $\delta_{fs}$ via
 cosmic tidal reconstruction. 
 Using $\hat \kappa_c$ we obtain an estimate radial velocity field $\hat v_z$ as in Eq.(\ref{eq:v}).
 And then we reconstruct the kSZ signal following Eq.(\ref{eq:ksz}) and compare it with the kSZ signal from simulations.
+
+\begin{figure}[tbp]
+	\begin{center}
+		\includegraphics[width=0.48\textwidth,height=0.52\textheight]{powermomen15.eps}
+	\end{center}
+	\vspace{-0.7cm}
+	\caption{(Top) the powerspectrum of orginal kSZ signal $P_{kSZ}$, reconstructed kSZ signal from 21cm intensity mapping $P_{21cm}$ and the cross powerspectrum of this two field $P_{cross}$; 
+(Bottom) the correlation r between reconstructed kSZ signal $\hat\Theta$ and the orginal kSZ signal $\Theta$.} 
+\label{fig:powermomen15}
+\end{figure}
+
 
