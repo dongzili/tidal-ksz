@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.30)  21 MAR 2016 11:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.30)  21 MAR 2016 21:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -322,118 +322,29 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
 (./introduction.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
 
 
-Package natbib Warning: Citation `Cook14' on page 1 undefined on input line 1.
-
-
-Package natbib Warning: Citation `Fukugita98' on page 1 undefined on input line
- 1.
-
-
-Package natbib Warning: Citation `Komatsu11' on page 1 undefined on input line 
-1.
-
-
-Package natbib Warning: Citation `Hinshaw13' on page 1 undefined on input line 
-1.
-
-
-Package natbib Warning: Citation `Soltan06' on page 1 undefined on input line 5
-.
-
-
-Package natbib Warning: Citation `Salucci99' on page 1 undefined on input line 
-7.
-
-
-Package natbib Warning: Citation `Werk' on page 1 undefined on input line 7.
-
-
-Package natbib Warning: Citation `Dave2010' on page 1 undefined on input line 8
-.
-
-
-Package natbib Warning: Citation `Sunyae72' on page 1 undefined on input line 1
-0.
-
-
-Package natbib Warning: Citation `Sunyaev80' on page 1 undefined on input line 
+Package natbib Warning: Citation `Sunyaev72' on page 1 undefined on input line 
 10.
 
 
-Package natbib Warning: Citation `Hand2012' on page 1 undefined on input line 2
-4.
+Underfull \hbox (badness 5203) in paragraph at lines 23--28
+[]\OT1/ptm/m/n/10 To fix this, pre-vi-ous ap-proches usu-ally cross cor-
+ []
 
 
-Package natbib Warning: Citation `Shao2011' on page 1 undefined on input line 2
-4.
+Underfull \hbox (badness 5345) in paragraph at lines 23--28
+\OT1/ptm/m/n/10 re-late it with galaxy sur-veys, eg. us-ing pairwise-
+ []
 
 
-Package natbib Warning: Citation `Li2014' on page 1 undefined on input line 24.
+Underfull \hbox (badness 5388) in paragraph at lines 23--28
+\OT1/ptm/m/n/10 momentum estimator[[]] or velocity-field-reconstruction
+ []
 
-
-
-Package natbib Warning: Citation `Hill2016' on page 1 undefined on input line 2
-7.
-
-
-Package natbib Warning: Citation `2012:pen' on page 1 undefined on input line 4
-2.
-
-
-Package natbib Warning: Citation `2015:zhu' on page 1 undefined on input line 4
-2.
-
-) (./tide.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package natbib Warning: Citation `2012:pen' on page 2 undefined on input line 1
-0.
-
-
-Package natbib Warning: Citation `2015:zhu' on page 2 undefined on input line 1
-0.
-
-
-Package natbib Warning: Citation `2015:zhu' on page 2 undefined on input line 2
-0.
-
-) (./cross.tex
-
-Package natbib Warning: Citation `Shao11' on page 2 undefined on input line 10.
-
-
-) (./simulation.tex
-
-Package natbib Warning: Citation `2013:code' on page 2 undefined on input line 
-9.
-
-
-Package natbib Warning: Citation `2014SPIE.9145E..22B' on page 2 undefined on i
-nput line 24.
-
-
-Package natbib Warning: Citation `2014SPIE.9145E..4VN' on page 2 undefined on i
-nput line 24.
-
-
-Package natbib Warning: Citation `2012IJMPS..12..256C' on page 2 undefined on i
-nput line 25.
-
-
-Package natbib Warning: Citation `2015ApJ...798...40X' on page 2 undefined on i
-nput line 25.
-
-
-Package natbib Warning: Citation `2013ApJ...763L..20M' on page 2 undefined on i
-nput line 34.
-
-
-Package natbib Warning: Citation `2013MNRAS.434L..46S' on page 2 undefined on i
-nput line 34.
-
-[2]
+) (./tide.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+(./cross.tex) (./simulation.tex [2]
 Package epstopdf Info: Source file: <powermomen15.eps>
 (epstopdf)                    date: 2016-03-19 21:36:16
 (epstopdf)                    size: 12113 bytes
@@ -444,7 +355,8 @@ Package epstopdf Info: Source file: <powermomen15.eps>
 -to.pdf powermomen15.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
- <powermomen15-eps-converted-to.pdf, id=31, 433.62pt x 722.7pt>
+
+<powermomen15-eps-converted-to.pdf, id=31, 433.62pt x 722.7pt>
 File: powermomen15-eps-converted-to.pdf Graphic file (type pdf)
 
 <use powermomen15-eps-converted-to.pdf>
@@ -457,12 +369,7 @@ File: vmode.pdf Graphic file (type pdf)
  <use vmode.pdf>
 Package pdftex.def Info: vmode.pdf used on input line 3.
 (pdftex.def)             Requested size: 244.79782pt x 408.01749pt.
- [3 <./powermomen15-eps-converted-to.pdf> <./vmode.pdf>]
-
-Package natbib Warning: Citation `2015:zhu' on page 4 undefined on input line 4
-0.
-
-) (./error.tex
+ [3 <./powermomen15-eps-converted-to.pdf> <./vmode.pdf>]) (./error.tex
 ! Missing { inserted.
 <to be read again> 
                    ^
@@ -476,48 +383,52 @@ l.4 ...^{ksz}+C_l^{\mr{CMB},N}}{C_^{kSZ,\Delta z}}
 l.5 \end{eqnarray}
                   
 ? 
-)
-No file ksz.bbl.
+) (./ksz.bbl [4])
 
 Package natbib Warning: There were undefined citations.
 
-[4] (./ksz.aux) ) 
+[5] (./ksz.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
+ ) 
 Here is how much of TeX's memory you used:
- 4376 strings out of 495028
- 55917 string characters out of 6181496
- 135639 words of memory out of 5000000
- 7454 multiletter control sequences out of 15000+600000
- 32970 words of font info for 86 fonts, out of 8000000 for 9000
+ 4439 strings out of 495028
+ 57070 string characters out of 6181496
+ 138797 words of memory out of 5000000
+ 7514 multiletter control sequences out of 15000+600000
+ 34654 words of font info for 88 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
- 38i,11n,26p,509b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
-ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ksz.pdf (4 pages, 267691 bytes).
+ 38i,11n,26p,509b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ksz.pdf (5 pages, 275682 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
+ 141 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

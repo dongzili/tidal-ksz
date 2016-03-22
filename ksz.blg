@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ksz.aux
+The style file: apsrev.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ksz.bib
+Warning--I didn't find a database entry for "Sunyaev72"
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 22 entries,
+            3411 wiz_defined-function locations,
+            1311 strings with 17411 characters,
+and the built_in function-call counts, 22660 in all, are:
+= -- 1021
+> -- 1193
+< -- 156
++ -- 1097
+- -- 296
+* -- 3389
+:= -- 2181
+add.period$ -- 22
+call.type$ -- 22
+change.case$ -- 88
+chr.to.int$ -- 21
+cite$ -- 22
+duplicate$ -- 2025
+empty$ -- 1710
+format.name$ -- 658
+if$ -- 4103
+int.to.chr$ -- 2
+int.to.str$ -- 23
+missing$ -- 304
+newline$ -- 81
+num.names$ -- 66
+pop$ -- 376
+preamble$ -- 1
+purify$ -- 88
+quote$ -- 0
+skip$ -- 963
+stack$ -- 0
+substring$ -- 351
+swap$ -- 1808
+text.length$ -- 152
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 132
+warning$ -- 0
+while$ -- 55
+width$ -- 0
+write$ -- 254
+(There was 1 warning)
