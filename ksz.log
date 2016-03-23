@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.30)  21 MAR 2016 21:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.30)  22 MAR 2016 23:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -320,31 +320,13 @@ l.51 \maketitle
 ? 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
-(./introduction.tex
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
-
-
-Package natbib Warning: Citation `Sunyaev72' on page 1 undefined on input line 
-10.
-
-
-Underfull \hbox (badness 5203) in paragraph at lines 23--28
-[]\OT1/ptm/m/n/10 To fix this, pre-vi-ous ap-proches usu-ally cross cor-
- []
-
-
-Underfull \hbox (badness 5345) in paragraph at lines 23--28
-\OT1/ptm/m/n/10 re-late it with galaxy sur-veys, eg. us-ing pairwise-
- []
-
-
-Underfull \hbox (badness 5388) in paragraph at lines 23--28
-\OT1/ptm/m/n/10 momentum estimator[[]] or velocity-field-reconstruction
- []
-
-) (./tide.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
-(./cross.tex) (./simulation.tex [2]
+(./introduction.tex) (./tide.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdft
+ex.map}]) (./cross.tex
+! Undefined control sequence.
+l.29 \tcp
+         {to be continued}
+? 
+) (./simulation.tex [2]
 Package epstopdf Info: Source file: <powermomen15.eps>
 (epstopdf)                    date: 2016-03-19 21:36:16
 (epstopdf)                    size: 12113 bytes
@@ -383,24 +365,20 @@ l.4 ...^{ksz}+C_l^{\mr{CMB},N}}{C_^{kSZ,\Delta z}}
 l.5 \end{eqnarray}
                   
 ? 
-) (./ksz.bbl [4])
-
-Package natbib Warning: There were undefined citations.
-
-[5] (./ksz.aux)
+) (./ksz.bbl [4]) [5] (./ksz.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
 
 
  ) 
 Here is how much of TeX's memory you used:
- 4439 strings out of 495028
- 57070 string characters out of 6181496
- 138797 words of memory out of 5000000
- 7514 multiletter control sequences out of 15000+600000
- 34654 words of font info for 88 fonts, out of 8000000 for 9000
+ 4435 strings out of 495028
+ 57046 string characters out of 6181496
+ 139842 words of memory out of 5000000
+ 7511 multiletter control sequences out of 15000+600000
+ 33028 words of font info for 86 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
- 38i,11n,26p,509b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,26p,509b,314s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf
@@ -425,7 +403,7 @@ sy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on ksz.pdf (5 pages, 275682 bytes).
+Output written on ksz.pdf (5 pages, 275757 bytes).
 PDF statistics:
  141 PDF objects out of 1000 (max. 8388607)
  102 compressed objects within 2 object streams
