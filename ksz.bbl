@@ -1,4 +1,4 @@
-\begin{thebibliography}{23}
+\begin{thebibliography}{26}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -193,6 +193,41 @@
   \bibinfo{journal}{ArXiv e-prints}  (\bibinfo{year}{2015}),
   \eprint{1511.04680}.
 
+\bibitem[{\citenamefont{{Di Matteo} et~al.}(2004)\citenamefont{{Di Matteo},
+  {Ciardi}, and {Miniati}}}]{DiMatteo04}
+\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{{Di Matteo}}},
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{{Ciardi}}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{{Miniati}}},
+  \bibinfo{journal}{\mnras} \textbf{\bibinfo{volume}{355}},
+  \bibinfo{pages}{1053} (\bibinfo{year}{2004}), \eprint{astro-ph/0402322}.
+
+\bibitem[{\citenamefont{{Masui}
+  et~al.}(2013{\natexlab{a}})\citenamefont{{Masui}, {Switzer}, {Banavar},
+  {Bandura}, {Blake}, {Calin}, {Chang}, {Chen}, {Li}, {Liao} et~al.}}]{Masui13}
+\bibinfo{author}{\bibfnamefont{K.~W.} \bibnamefont{{Masui}}},
+  \bibinfo{author}{\bibfnamefont{E.~R.} \bibnamefont{{Switzer}}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{{Banavar}}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{{Bandura}}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{{Blake}}},
+  \bibinfo{author}{\bibfnamefont{L.-M.} \bibnamefont{{Calin}}},
+  \bibinfo{author}{\bibfnamefont{T.-C.} \bibnamefont{{Chang}}},
+  \bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{{Chen}}},
+  \bibinfo{author}{\bibfnamefont{Y.-C.} \bibnamefont{{Li}}},
+  \bibinfo{author}{\bibfnamefont{Y.-W.} \bibnamefont{{Liao}}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{\apjl}
+  \textbf{\bibinfo{volume}{763}}, \bibinfo{eid}{L20}
+  (\bibinfo{year}{2013}{\natexlab{a}}), \eprint{1208.0331}.
+
+\bibitem[{\citenamefont{{Switzer} et~al.}(2015)\citenamefont{{Switzer},
+  {Chang}, {Masui}, {Pen}, and {Voytek}}}]{Switzer15}
+\bibinfo{author}{\bibfnamefont{E.~R.} \bibnamefont{{Switzer}}},
+  \bibinfo{author}{\bibfnamefont{T.-C.} \bibnamefont{{Chang}}},
+  \bibinfo{author}{\bibfnamefont{K.~W.} \bibnamefont{{Masui}}},
+  \bibinfo{author}{\bibfnamefont{U.-L.} \bibnamefont{{Pen}}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{T.~C.} \bibnamefont{{Voytek}}},
+  \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{815}}, \bibinfo{eid}{51}
+  (\bibinfo{year}{2015}), \eprint{1504.07527}.
+
 \bibitem[{\citenamefont{{Harnois-D{\'e}raps}
   et~al.}(2013)\citenamefont{{Harnois-D{\'e}raps}, {Pen}, {Iliev}, {Merz},
   {Emberson}, and {Desjacques}}}]{2013:code}
@@ -258,8 +293,9 @@
   \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{798}}, \bibinfo{eid}{40}
   (\bibinfo{year}{2015}), \eprint{1410.7794}.
 
-\bibitem[{\citenamefont{{Masui} et~al.}(2013)\citenamefont{{Masui}, {Switzer},
-  {Banavar}, {Bandura}, {Blake}, {Calin}, {Chang}, {Chen}, {Li}, {Liao}
+\bibitem[{\citenamefont{{Masui}
+  et~al.}(2013{\natexlab{b}})\citenamefont{{Masui}, {Switzer}, {Banavar},
+  {Bandura}, {Blake}, {Calin}, {Chang}, {Chen}, {Li}, {Liao}
   et~al.}}]{2013ApJ...763L..20M}
 \bibinfo{author}{\bibfnamefont{K.~W.} \bibnamefont{{Masui}}},
   \bibinfo{author}{\bibfnamefont{E.~R.} \bibnamefont{{Switzer}}},
@@ -272,8 +308,8 @@
   \bibinfo{author}{\bibfnamefont{Y.-C.} \bibnamefont{{Li}}},
   \bibinfo{author}{\bibfnamefont{Y.-W.} \bibnamefont{{Liao}}},
   \bibnamefont{et~al.}, \bibinfo{journal}{\apjl}
-  \textbf{\bibinfo{volume}{763}}, \bibinfo{eid}{L20} (\bibinfo{year}{2013}),
-  \eprint{1208.0331}.
+  \textbf{\bibinfo{volume}{763}}, \bibinfo{eid}{L20}
+  (\bibinfo{year}{2013}{\natexlab{b}}), \eprint{1208.0331}.
 
 \bibitem[{\citenamefont{{Switzer} et~al.}(2013)\citenamefont{{Switzer},
   {Masui}, {Bandura}, {Calin}, {Chang}, {Chen}, {Li}, {Liao}, {Natarajan},
