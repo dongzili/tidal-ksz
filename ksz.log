@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.30)  23 MAR 2016 22:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.30)  23 MAR 2016 23:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -352,19 +352,19 @@ Runaway argument?
 ! Paragraph ended before \addcontentsline was complete.
 <to be read again> 
                    \par 
-l.66 		without tidal reconstruction.}
-                                     
+l.58 	}
+       
 ? 
 ! Extra }, or forgotten \endgroup.
 \@caption ... the#1\endcsname }{\ignorespaces #2}}
                                                   \begingroup \@parboxrestor...
-l.66 		without tidal reconstruction.}
-                                     
+l.58 	}
+       
 ? 
 ! Extra }, or forgotten \endgroup.
 \@endfloatbox ...pagefalse \outer@nobreak \egroup 
                                                   \color@endbox 
-l.68 \end{figure}
+l.60 \end{figure}
                  
 ? 
 ) (./result.tex) (./when.tex <vmode.pdf, id=32, 216.81pt x 361.35pt>
@@ -376,7 +376,7 @@ Package pdftex.def Info: vmode.pdf used on input line 3.
  [3 <./powermomen_correlation-eps-converted-to.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 28.
+ on input line 36.
 
 ) (./error.tex
 ! Missing { inserted.
@@ -394,10 +394,10 @@ l.5 \end{eqnarray}
 ? 
 ) (./ksz.bbl [4 <./vmode.pdf>]) [5] (./ksz.aux) ) 
 Here is how much of TeX's memory you used:
- 4445 strings out of 495028
- 57245 string characters out of 6181496
- 149395 words of memory out of 5000000
- 7521 multiletter control sequences out of 15000+600000
+ 4448 strings out of 495028
+ 57275 string characters out of 6181496
+ 147148 words of memory out of 5000000
+ 7524 multiletter control sequences out of 15000+600000
  33028 words of font info for 86 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
  38i,11n,26p,523b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -426,7 +426,7 @@ fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on ksz.pdf (5 pages, 282169 bytes).
+Output written on ksz.pdf (5 pages, 280224 bytes).
 PDF statistics:
  141 PDF objects out of 1000 (max. 8388607)
  102 compressed objects within 2 object streams
