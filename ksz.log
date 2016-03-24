@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.30)  23 MAR 2016 18:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.30)  23 MAR 2016 22:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -327,41 +327,56 @@ l.29 \tcp
          {to be continued}
 ? 
 ) (./simulation.tex [2]
-Package epstopdf Info: Source file: <powermomen15.eps>
-(epstopdf)                    date: 2016-03-19 21:36:16
-(epstopdf)                    size: 12113 bytes
-(epstopdf)             Output file: <powermomen15-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-03-19 22:01:52
-(epstopdf)                    size: 9792 bytes
-(epstopdf)             Command: <repstopdf --outfile=powermomen15-eps-converted
--to.pdf powermomen15.eps>
+Package epstopdf Info: Source file: <powermomen_correlation.eps>
+(epstopdf)                    date: 2016-03-23 21:53:45
+(epstopdf)                    size: 14039 bytes
+(epstopdf)             Output file: <powermomen_correlation-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2016-03-23 22:48:18
+(epstopdf)                    size: 11397 bytes
+(epstopdf)             Command: <repstopdf --outfile=powermomen_correlation-eps
+-converted-to.pdf powermomen_correlation.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
 
-<powermomen15-eps-converted-to.pdf, id=31, 433.62pt x 722.7pt>
-File: powermomen15-eps-converted-to.pdf Graphic file (type pdf)
+<powermomen_correlation-eps-converted-to.pdf, id=31, 433.62pt x 722.7pt>
+File: powermomen_correlation-eps-converted-to.pdf Graphic file (type pdf)
 
-<use powermomen15-eps-converted-to.pdf>
-Package pdftex.def Info: powermomen15-eps-converted-to.pdf used on input line 5
-0.
+<use powermomen_correlation-eps-converted-to.pdf>
+Package pdftex.def Info: powermomen_correlation-eps-converted-to.pdf used on in
+put line 50.
 (pdftex.def)             Requested size: 244.79726pt x 349.4394pt.
-) (./result.tex) (./when.tex
-<vmode.pdf, id=32, 216.81pt x 361.35pt>
+
+Runaway argument?
+{\protect \numberline {\csname the\@captype \endcsname }{\ignorespaces \ETC.
+! Paragraph ended before \addcontentsline was complete.
+<to be read again> 
+                   \par 
+l.66 		without tidal reconstruction.}
+                                     
+? 
+! Extra }, or forgotten \endgroup.
+\@caption ... the#1\endcsname }{\ignorespaces #2}}
+                                                  \begingroup \@parboxrestor...
+l.66 		without tidal reconstruction.}
+                                     
+? 
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.68 \end{figure}
+                 
+? 
+) (./result.tex) (./when.tex <vmode.pdf, id=32, 216.81pt x 361.35pt>
 File: vmode.pdf Graphic file (type pdf)
- <use vmode.pdf>
+
+<use vmode.pdf>
 Package pdftex.def Info: vmode.pdf used on input line 3.
 (pdftex.def)             Requested size: 244.79782pt x 408.01749pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
-
-
-LaTeX Warning: Reference `fig:controlgroup' on page 3 undefined on input line 4
-6.
-
-[3 <./powermomen15-eps-converted-to.pdf>]
+ [3 <./powermomen_correlation-eps-converted-to.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 55.
+ on input line 28.
 
 ) (./error.tex
 ! Missing { inserted.
@@ -377,44 +392,41 @@ l.4 ...^{ksz}+C_l^{\mr{CMB},N}}{C_^{kSZ,\Delta z}}
 l.5 \end{eqnarray}
                   
 ? 
-) (./ksz.bbl [4 <./vmode.pdf>]) [5] (./ksz.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+) (./ksz.bbl [4 <./vmode.pdf>]) [5] (./ksz.aux) ) 
 Here is how much of TeX's memory you used:
- 4450 strings out of 495028
- 57268 string characters out of 6181496
- 140134 words of memory out of 5000000
- 7525 multiletter control sequences out of 15000+600000
- 34654 words of font info for 88 fonts, out of 8000000 for 9000
+ 4445 strings out of 495028
+ 57245 string characters out of 6181496
+ 149395 words of memory out of 5000000
+ 7521 multiletter control sequences out of 15000+600000
+ 33028 words of font info for 86 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
  38i,11n,26p,523b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ksz.pdf (5 pages, 277906 bytes).
+{/usr/share/texlive/texmf-dist
+/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cmextra/cmbsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.p
+fb>
+Output written on ksz.pdf (5 pages, 282169 bytes).
 PDF statistics:
  141 PDF objects out of 1000 (max. 8388607)
  102 compressed objects within 2 object streams

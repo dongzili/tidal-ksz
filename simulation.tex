@@ -47,12 +47,24 @@ And then we reconstruct the kSZ signal following Eq.(\ref{eq:ksz}) and compare i
 
 \begin{figure}[tbp]
 	\begin{center}
-		\includegraphics[width=0.48\textwidth,height=0.52\textheight]{powermomen15.eps}
+		\includegraphics[width=0.48\textwidth,height=0.52\textheight]{powermomen_correlation.eps}
 	\end{center}
 	\vspace{-0.7cm}
-	\caption{(Top) the powerspectrum of orginal kSZ signal $P_{kSZ}$, reconstructed kSZ signal from 21cm intensity mapping $P_{21cm}$ and the cross powerspectrum of this two field $P_{cross}$; 
-(Bottom) the correlation r between reconstructed kSZ signal $\hat\Theta$ and the orginal kSZ signal $\Theta$.} 
-\label{fig:powermomen15}
+	\caption{(Top)$P_{kSZ}$: powerspectrum of orginal kSZ signal $\Theta$, 
+		$P_{21cm}$: powerspectrum of reconstructed kSZ signal from foreground substracted 21cm field with $R_\parallel = 15$ Mpc/h, after tidal reconstruction; 
+		$P_{cross}$ the cross powerspectrum of this two fields; 		
+
+		(Bottom) Dark solid line: correlation r between original kSZ signal 
+		$\Theta$ and mock kSZ signal $\hat\Theta_{R_\parallel 15,tide}$ from foreground substracted 21cm field with $R_\parallel = 15$ Mpc/h, after tidal reconstruction
+ ; blue dashed line: correlation between
+		$\Theta$ and mock kSZ signal $\hat\Theta_{R_\parallel 15}$ from
+		foreground substracted 21cm field with $R_\parallel = 15$ Mpc/h, without
+		tidal reconstruction; 
+red dotted line: correlation between
+		$\Theta$ and mock kSZ signal $\hat\Theta_{R_\parallel 60}$ from
+		optimal foreground substracted 21cm field with $R_\parallel = 60$ Mpc/h,
+		without tidal reconstruction.} 
+\label{fig:kSZ}
 \end{figure}
 
 
