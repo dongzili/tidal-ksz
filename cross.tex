@@ -5,7 +5,7 @@ finally correlate it with the real kSZ signal \cite{Shao11}.
 
 Detailed steps are as follows.
 
-(1) Estimate the velocity field.
+(1) Estimate the velocity field:
 
 In linear region, the continuity equation goes like:
 $\dot \delta+\nabla \cdot \bm{v}=0$, 
@@ -18,17 +18,12 @@ Therefore, we obtain an estimator of velocity distribution:
 \end{eqnarray}
 where D(a) is the linear growth function.
 
-As we can see, $v_z \propto \frac{k_z}{k^2}$, indicating the most prominent signal comes from small k mode, which corresponds to large scale structure. 
+$v_z \propto \frac{k_z}{k^2}$, indicating the most prominent signal comes from small k mode, which corresponds to large scale structure. 
 This further verify our motivation for tidal reconstruction procedure.
 
-(2) suppress the noise in velocity field with a new Wiener filter.
+(2) suppress the noise in velocity field with a new Wiener filter, following identical procedure as Eq.(\ref{eq:wiener}). This is because the term $\frac{k_z}{k^2}$ in Eq.(\ref{eq:v}) will strongly amplify noises in small k modes. 
 
-The additional term $\frac{k_z}{k^2}$ in Eq.(\ref{eq:v})
-will strongly amplify the noise in small k modes. 
-Therefore, we apply a Wiener filter similar to Eq.(\ref{eq:wiener}) for the velocity field.
-\tcp{to be continued}
-
-(3) calculate the 2D kSZ map.
+(3) Calculate 2D kSZ map.
 
 The CMB temperature fluctuations caused by kSZ effect is:
 \begin{eqnarray}
@@ -37,11 +32,15 @@ The CMB temperature fluctuations caused by kSZ effect is:
 =-\frac{1}{c}\int d\eta  g(\eta)  \bm{p}_\parallel\ ,
 \end{eqnarray}
 where $\eta(z)$ is the comoving distance at redshift z, $g(\eta)=e^{-\tau} d\tau/d\eta$ is the visibility function, $\tau$ is the optical depth to Thomson scattering, $\bm{p}_\parallel=(1+\delta)\bm{v}_\parallel$, with $\delta$ the electron overdensity. 
-
 We assume that $g(\eta)$ doesn't change significally in one redshift bin, 
 and integrate $\bm{p}_\parallel$ along radial axis to get $\hat \Theta_{kSZ}$
-%Then we use the orignal 21cm density field as $\delta$, 
-%and reconstruct the kSZ signal following Eq.(\ref{eq:ksz}). 
-%We compare it with the original signal directly from simulations.
+
+(4) Calculate correlation coefficients.
+
+We compare reconstructed kSZ signals $\hat \Theta_{kSZ}$ with kSZ signals $\Theta_{kSZ}$ directly from simulations. 
+To quantify the tightness of correlation, we employ a quantity r: 
+\begin{eqnarray}
+	r\equiv \frac{P_{recon,real}}{\sqrt{P_{recon}P_{real}}}\,
+\end{eqnarray}
 
 

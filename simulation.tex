@@ -1,18 +1,11 @@
-We test the feasibility of the idea with numerical 
-simulations. 
-To quantify how well the algorithm perform, we employ a quantity r to show the tightness of correlation.
-\begin{eqnarray}
-	r\equiv \frac{P_{recon,real}}{\sqrt{P_{recon}P_{real}}}\,
-\end{eqnarray}
-
-We employ an ensemble of six $N$-body simulations from the
+We use six $N$-body simulations from the
 $\mr{CUBEP}^3\mr{M}$ code \cite{2013:code}. 
-Each simulation includes $2048^3$ particles in a $(1.2\mr{Gpc}/h)^3$ box. 
-%with following cosmological parameters: Hubble parameter $h=0.678$, baryon
-%density $\Omega_{b}=0.049$, dark matter density $\Omega_{c}=0.259$,
-%amplitude of primordial curvature power spectrum $A_s=2.139\times10^{-9}$ at 
-%$k_0=0.05\;\mr{Mpc}^{-1}$ and scalar spectral index $n_s=0.968$.
-In the following analysis we use outputs at $z=1$.
+Each evolves $1024^3$ particles in a $(1.2\mr{Gpc}/h)^3$ box. 
+with following cosmological parameters: Hubble parameter $h=0.678$, baryon
+density $\Omega_{b}=0.049$, dark matter density $\Omega_{c}=0.259$,
+amplitude of primordial curvature power spectrum $A_s=2.139\times10^{-9}$ at 
+$k_0=0.05\;\mr{Mpc}^{-1}$ and scalar spectral index $n_s=0.968$.
+We analyse the outputs at both redshift 1 and 2.
 
 For simplicity, we assume the experimental
 noise to be zero above a cut off scale and infinity below the cut off scale.

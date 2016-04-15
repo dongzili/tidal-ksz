@@ -10,54 +10,73 @@ Since the large scale information is essential for the estimate of
 peculiar velocity, we need to recover the information.
 %Since foregounds are spectrally smooth, when we are substracting them, 
 %we lose the information about smooth large scale structure of real signals. 
-%However, since large scale structure is correlated closely to the emergence of peculiar velocity, we need a method to estimate its distribution.
+iHowever, since large scale structure is correlated closely to the emergence of peculiar velocity, we need a method to estimate its distribution.
 
 The cosmic tidal reconstruction is a kind of quadratic statistics developed to achieve this goal.
 Its main idea is using small scale filamentary structures to solve for the large scale tidal shear and gravitational potential.
 
-Detailed steps are as follows.
+Here, we present a 3 dimentional reconstruction algorithm that works best in close linear regions.
 
-First, we filter for the part of information corresponding to linear small scale structure from the 21cm density field.
+First, we filter for the small scale structures that are most likely to be influenced by tidal force of large scale fields.
 
 (1) Convolve the field with a Gaussian kernal
 $S(\bm{k})=e^{-k^2R^2/2}$, 
-we take $R=1.25\ \mr{Mpc}/h$ \cite{2012:pen}\cite{2015:zhu},
-and expect it to filter out the nonlinear structures in small scales.
+we take $R=1.25\ \mr{Mpc}/h$ \cite{2012:pen},
+to reduce the complicated non-linear effects on small scales.
 
-(2) Gaussianize the smoothed field, by taking 
-$\delta_g=\mathrm{ln}(1+\delta)$, 
-this is to allieviate the problem that the filter we apply in next step heavily weights the high density region.
+(2) Gaussianize the field, by taking 
+$\delta_g=\mathrm{ln}(1+\delta)$. 
+This is to allieviate the problem that filter $W_i$ in (3) heavily weights high density regions.
 
-(3) Convolve with filter $W_i(\bm{k})$ which filters for the small scale structures, 
-$W_i(\bm{k})=(\frac{P(k)f(k)}{P_{tot}^2(k)})^{\frac{1}{2}}\hat{k}_i$,
-where i corresponds to $k_x,k_y$ directions, $P_{tot}=P+P_{noise}$ is the observed powerspectrum, f is a function related to the redshift and linear growth funcion of the universe, see 
-\cite{2015:zhu}.
+(3) Apply filter $W_i(\bm{k})$, which assigns weights to $\delta_g$ according to predicted displacements caused by tidal field in near linear regions \cite{2015:zhu}.
+${\delta}^{w_i}_g(\bm{k})=W_i(\bm{k})\delta_g(\bm{k})$, 
+\begin{eqnarray}
+\label{eq:wi}
+W_i(\bm{k})=(\frac{P(k)f(k)}{P_{tot}^2(k)})^{\frac{1}{2}}\hat{k}_i\,
+\end{eqnarray}
+i indicates $\hat x,\hat y,\hat z$ directions, 
+$P_{tot}=P+P_{noise}$ is observed matter powerspectrum, 
+P is theoretical matter powerspectrum,
+$f=2\alpha(\tau)-\beta(\tau)dlnP/dlnk$, 
+where $\alpha$ and $\beta$ are functions related to linear growth funcion, and are calculated to be (0.6, 1.3) for $z=1$ and (0.4, 0.9) for $z=2$.
 \footnote{The effect of the filter $W_i$ on different scales could be seen in Appendix 1.}
 
-Second, we reconstruct the large scale density field from tidal shear field.
 
-(1) Estimate the tidal shear fields from density variance.
-To avoid error caused by peculiar velocity, we only consider the shear field in tangental plane
-(perpendicular to the line of sight).
-$\gamma_1=(\delta_g^{w1})^2-(\delta_g^{w2})^2$,
-$\gamma_2=2\delta_g^{w1}\delta_g^{w2}$.
+Second, we estimate the tidal force and hense reconstruct the large scale density field.
 
-(2) Reconstruct 3D density field from Possion equations.
+(1) Following gravitational lensing procedures, we decompose the $3\times3$ symmetric, traceless tidal force tensor into 5 $\gamma$ components, and estimate them from density variance.
 \begin{eqnarray}
-\label{eq:k3d}
-\kappa_{3D}(\bm{k})=\frac{2k^2}{3(k_1^2-k_2^2)^2}[(k_1^2-k_2^2)\gamma_1(\bm{k}+2k_1k_2\gamma_2(\bm{k})]\ .
+\label{eq:gamma}
+\hat{\gamma}_1(\bm{x})&=&
+[{\delta}^{w_1}_g(\bm{x}){\delta}^{w_1}_g(\bm{x})-
+{\delta}^{w_2}_g(\bm{x}){\delta}^{w_2}_g(\bm{x})],\nonumber\\
+\hat{\gamma}_2(\bm{x})&=&
+[2{\delta}^{w_1}_g(\bm{x}){\delta}^{w_2}_g(\bm{x})],\nonumber\\
+\hat{\gamma}_x(\bm{x})&=&
+[2{\delta}^{w_1}_g(\bm{x}){\delta}^{w_3}_g(\bm{x})],\\
+\hat{\gamma}_y(\bm{x})&=&
+[2{\delta}^{w_2}_g(\bm{x}){\delta}^{w_3}_g(\bm{x})],\nonumber\\
+\hat{\gamma}_z(\bm{x})&=&
+[(2{\delta}^{w_3}_g(\bm{x}){\delta}^{w_3}_g(\bm{x})-
+{\delta}^{w_1}_g(\bm{x}){\delta}^{w_1}_g(\bm{x})-
+{\delta}^{w_2}_g(\bm{x}){\delta}^{w_2}_g(\bm{x}))]/3,\nonumber
+\end{eqnarray}
+(2) Reconstruct 3D density field.
+\begin{eqnarray}
+\kappa_\mr{3D}(\bm{k})&=&\frac{1}{k_1^2+k_2^2+k_3^2}
+[(k_1^2-k_2^2)\gamma_1(\bm{k})+2k_1k_2\gamma_2(\bm{k})\\
+&&+2k_1k_3\gamma_x(\bm{k})+2k_2k_3\gamma_y(\bm{k})\nonumber
++(2k_3^2-k_1^2-k_1^2)\gamma_z(\bm{k})].
 \end{eqnarray}
 
-Third, we correct bias and control noise with a Wiener filter.
-
-From Eq.(\ref{eq:k3d}) we can infer that the error of $\kappa_{3D}(\bm{x})$ is 
-$\sigma_{k3d}(\bm{k})\propto(\frac{k^2}{k_\perp^2})^2$, where $k_\perp$ refers to modes that are tangental.
-The anisotropy in $k_\perp$ and $k_\parallel$ is due to the discard of information about radial shear field.
-To control the large noise corresponds to small $k_perp$, we apply filter to calculate the clean large scale density field$\hat \kappa_c$:
+Third, we correct bias and suppress noise with a Wiener filter.
+Due to the foregrounds, the noise in z direction will be different from x,y direction, therefore we apply an anisotropic Wiener filter.
 \begin{eqnarray}
 	\label{eq:wiener}
-\hat \kappa_{c}(\bm{k})=\frac{\kappa_{3D}(\bm{k}}{b(k_\perp,k_\parallel)}W(k_\perp,k_\parallel)\ ,
+\hat \kappa_{c}(\bm{k})=\frac{\kappa_{3D}(\bm{k})}{b(k_\perp,k_\parallel)}W(k_\perp,k_\parallel)\ ,
 \end{eqnarray}
-where the bias $b=\frac{P_{k3D \delta}}{P_\delta}$, Wiener filter $W=\frac{P_\delta}{P_{k3D}/b^2}$, here and afterwards, 
-we use $\wedge$ to denote recontructed fields.
+Bias $b=\frac{P_{k3D \delta}}{P_\delta}$, Wiener filter $W=\frac{P_\delta}{P_{k3D}/b^2}$.
+
+Here and afterwards, 
+we use "$\wedge$" to denote recontructed fields.
 
