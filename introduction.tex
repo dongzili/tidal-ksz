@@ -5,13 +5,14 @@ objects, eg. galaxies, galaxy clusters and groups, only account for ~10$\%$ of t
 More baryons are believe to reside in Warm-Hot Intergalactic Mediums (WHIM) with typical temperature of $10^5$ K to $10^7$ K \cite{Soltan06}, which is too cold and diffuse to be easily detected.
 Continuous effort has been made to detect this part of the baryons. 
 One common approach is using hydrogen and metal absorption lines(eg, HI, Mg II,Si II, C II, Si III, C III, Si IV, O VI, O VII) \cite{Fukugita04}\cite{Werk14}.
-However, the lines are usually limited to very close circumgalactic medium, while at least 25\% of the baryons are bebieved to reside in more diffused region \cite{Dave10}. Moreover, the uncertainty in metalicity would sometimes reduce the reliability.
+However, the lines are usually limited to close circumgalactic medium, while at least 25\% of the baryons are bebieved to reside in more diffused region \cite{Dave10}. Moreover, the uncertainty in metalicity would sometimes reduce the reliability.
 
-A promising tool to probe the missing baryon is the kinetic Sunyaev-Zel'dovich(kSZ) effect \cite{Sunyaev72}\cite{Sunyaev80}. 
-It refers to the secondary temperature anisotropy in CMB caused by radial motions of free electrons.
-Since kSZ signal only correlates to electron density and velocity, 
-regardless the temperature and pressure, 
-and velocity field mainly results from large scale structure, 
+A promising tool to probe the missing baryon is the kinetic Sunyaev-Zel'dovich(kSZ) effect \cite{Sunyaev72}\cite{Sunyaev80}, 
+  an effect that is known for its great potential to explore the Epoch of Reionization. 
+It refers to the secondary temperature anisotropy in CMB caused by radial motions of free electrons, 
+  which only correlates to electron density and velocity, 
+regardless the temperature and pressure. 
+Since the velocity field mainly results from large scale structure, 
 the method is less biased towards hot, compact place, 
 and provide more information on the fraction of diffused baryons.
 
@@ -20,40 +21,47 @@ due to the contamination from primary CMB and residual thermal SZ signal
 it is difficult to filter the kSZ signal without other sources. 
 Worse still, the signal itself does not contain redshift information.
 
-To fix this, previous approches usually cross correlate it with galaxy surveys, 
+To fix this, previous approches cross correlated it with galaxy surveys, 
 eg. using pairwise-momentum estimator \cite{Hand12} or velocity-field-reconstruction estimator \cite{Shao11}\cite{Li14}. 
-However since they all require spectroscopy of galaxies to provide accurate redshift, the sky volume and redshift range to apply the method will be very limited. 
+However since they all require spectroscopy of galaxies to provide accurate redshift, the sky volume and redshift range to apply the method is limited. 
 A recent effort try to fix this by using photometries of infrared-selected galaxies. 
-However, since they used projected fields of the galaxies, they could only obtain a rough estimate of a wide redshift bin \cite{Hill16}.
+However, since they used projected fields of the galaxies, they could only obtain a rough estimate over a wide redshift bin \cite{Hill16}.
 
-In this paper, we present a new cross relating source---neutral hydrogen density field, 
-that makes it feasible to probe the baryon content to $z\sim1$ in very near future.
-The field can be obtained from 21cm intensity mapping---surveys that provide integrated signals of diffuse 21cm spectra, 
+In this paper we present a new cross relating source, HI density field, from 21cm intensity mapping, 
+a kind of surveys that provide integrated signals of diffuse 21cm spectra, 
 rather than detecting individual objects. 
-It is designed to detect weak, diffuse HI signals, and can be easily extended to probe higher redshift universe.
-Moreover, the 21cm spectrum contains accurate redshift information, which makes it a good candidate to be cross correlated to kSZ signals.
+
+It will make it feasible to probe the baryon content to $z\gtrsim1$ in very near future, with ongoing experiments like
+CHIME \cite{2014SPIE.9145E..22B}, Tianlai \cite{2015ApJ...798...40X}, 
+HIRAX \cite{HIRAX} etc.
+.
+Besides, the 21cm spectrum contains accurate redshift information, which makes it a good candidate to be cross correlated to kSZ signals.
 
 This powerful probe was rarely harnessed in this topic previously, 
 because the continuum foregrounds in 21cm measurements is typically $10^2 - 10^3$ times brighter than cosmological signals, almost completely bury the distribution of large scale structures in radial direction, i.e. modes with small $k_\parallel$.
 Meanwhile the veocity field is closely related with the large scale structure, 
 which makes the correlation difficult to see.
 
-
-Fortunately, a new method called {\it cosmic tidal reconstruction} has been 
+To compensate that, a new method called {\it cosmic tidal reconstruction} has been 
 developed recently \cite{2012:pen}\cite{2015:zhu}. 
 It can reconstruct the large scale density field from the alignment of small 
-scale cosmic structures. Applying it, we will be able to cross correlate the kSZ signal with 21cm density field.
+scale cosmic structures. 
+In this paper, we further extend the previous 2D tidal reconstruction to 3D--this is a necessity since we need more accurate large scale density field on z directions. We discuss the influence of redshift distortions for that.
+
+Applying this methods to foreground substracted 21cm density fields, we obtain a sufficiently good cross-correlation signal with original kSZ signals. 
 
 The paper is organized as follows. 
-In section II, we present the complete procedure and simulation results: 
-In II A, we introduce the tidal reconstruction method; 
-in II B, we address how to use reconstructed field to cross correlate
-with kSZ signal; 
-in II C, we describe simulation set up; 
-in II D, we demonstrate the results of the simulations.
-In section III, we explain the necessity of applying tidal reconstruction, 
-presenting correlation results with non-tidal-reconstructed fields. 
-In section IV, we estimates the statistical errors for real surveys.
+In section II, we present the complete procedure: 
+II A, Introduce 3D tidal reconstruction method; 
+II B, How to use reconstructed fields to cross correlate
+with kSZ signals; 
+In section III, we present the simulations: 
+III A, Simulation set up; 
+III B, Simulations results;
+In section IV, we discuss the error and demonstrate the importance of tidal reconstruction: 
+IV A, Redshift distortion;
+IV B, Statistical error;
+IV C, non-tidal reconstructed cross correlation;
 In section V, we give conclusions and discuss future applications.
 
 

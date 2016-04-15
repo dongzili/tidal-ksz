@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.30)  23 MAR 2016 23:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.11)  14 APR 2016 22:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **ksz.tex
 (./ksz.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/revtex4/revtex4.cls
 Document Class: revtex4 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for do
 cumentation)
@@ -300,11 +300,11 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 (./abstract.tex
-LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+LaTeX Font Info:    Try loading font information for U+msa on input line 7.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 11.
+LaTeX Font Info:    Try loading font information for U+msb on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -320,8 +320,8 @@ l.51 \maketitle
 ? 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
-(./introduction.tex) (./tide.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdft
-ex.map}]) (./cross.tex
+(./introduction.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+(./tide.tex) (./cross.tex
 ! Undefined control sequence.
 l.29 \tcp
          {to be continued}
@@ -376,7 +376,7 @@ Package pdftex.def Info: vmode.pdf used on input line 3.
  [3 <./powermomen_correlation-eps-converted-to.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 36.
+ on input line 33.
 
 ) (./error.tex
 ! Missing { inserted.
@@ -394,12 +394,12 @@ l.5 \end{eqnarray}
 ? 
 ) (./ksz.bbl [4 <./vmode.pdf>]) [5] (./ksz.aux) ) 
 Here is how much of TeX's memory you used:
- 4448 strings out of 495028
- 57275 string characters out of 6181496
- 147148 words of memory out of 5000000
- 7524 multiletter control sequences out of 15000+600000
+ 4451 strings out of 493304
+ 57325 string characters out of 6139871
+ 153453 words of memory out of 5000000
+ 7776 multiletter control sequences out of 15000+600000
  33028 words of font info for 86 fonts, out of 8000000 for 9000
- 17 hyphenation exceptions out of 8191
+ 960 hyphenation exceptions out of 8191
  38i,11n,26p,523b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist
 /fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/
@@ -426,7 +426,7 @@ fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on ksz.pdf (5 pages, 280224 bytes).
+Output written on ksz.pdf (5 pages, 281779 bytes).
 PDF statistics:
  141 PDF objects out of 1000 (max. 8388607)
  102 compressed objects within 2 object streams
