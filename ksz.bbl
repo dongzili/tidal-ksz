@@ -1,4 +1,4 @@
-\begin{thebibliography}{30}
+\begin{thebibliography}{31}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -75,6 +75,11 @@
   \bibnamefont{et~al.}, \bibinfo{journal}{\apjs}
   \textbf{\bibinfo{volume}{208}}, \bibinfo{eid}{19}
   (\bibinfo{year}{2013}{\natexlab{b}}), \eprint{1212.5226}.
+
+\bibitem[{\citenamefont{{Pen}}(1999)}]{Pen1999}
+\bibinfo{author}{\bibfnamefont{U.-L.} \bibnamefont{{Pen}}},
+  \bibinfo{journal}{\apjl} \textbf{\bibinfo{volume}{510}}, \bibinfo{pages}{L1}
+  (\bibinfo{year}{1999}), \eprint{astro-ph/9811045}.
 
 \bibitem[{\citenamefont{{So{\l}tan}}(2006)}]{Soltan06}
 \bibinfo{author}{\bibfnamefont{A.~M.} \bibnamefont{{So{\l}tan}}},
