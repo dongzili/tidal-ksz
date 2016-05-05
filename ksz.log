@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.11)  15 APR 2016 19:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.11)  5 MAY 2016 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -299,9 +299,10 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-(./abstract.tex
+(./author.tex) (./abstract.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 7.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 7.
@@ -332,104 +333,147 @@ Overfull \hbox (29.81676pt too wide) in alignment at lines 65--70
  []
 
 ) (./cross.tex [2]) (./simulation.tex
-Package epstopdf Info: Source file: <powermomen_correlation.eps>
-(epstopdf)                    date: 2016-03-23 21:53:45
-(epstopdf)                    size: 14039 bytes
-(epstopdf)             Output file: <powermomen_correlation-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2016-03-23 22:48:18
-(epstopdf)                    size: 11397 bytes
-(epstopdf)             Command: <repstopdf --outfile=powermomen_correlation-eps
--converted-to.pdf powermomen_correlation.eps>
-(epstopdf)             \includegraphics on input line 43.
+Package epstopdf Info: Source file: <compare_powv2d_z1z2.eps>
+(epstopdf)                    date: 2016-05-02 15:51:03
+(epstopdf)                    size: 44557 bytes
+(epstopdf)             Output file: <compare_powv2d_z1z2-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-02 16:03:26
+(epstopdf)                    size: 14586 bytes
+(epstopdf)             Command: <repstopdf --outfile=compare_powv2d_z1z2-eps-co
+nverted-to.pdf compare_powv2d_z1z2.eps>
+(epstopdf)             \includegraphics on input line 3.
 Package epstopdf Info: Output file is already uptodate.
 
-<powermomen_correlation-eps-converted-to.pdf, id=29, 433.62pt x 722.7pt>
-File: powermomen_correlation-eps-converted-to.pdf Graphic file (type pdf)
+<compare_powv2d_z1z2-eps-converted-to.pdf, id=29, 1172.38pt x 1039.885pt>
+File: compare_powv2d_z1z2-eps-converted-to.pdf Graphic file (type pdf)
 
-<use powermomen_correlation-eps-converted-to.pdf>
-Package pdftex.def Info: powermomen_correlation-eps-converted-to.pdf used on in
-put line 43.
-(pdftex.def)             Requested size: 244.79726pt x 349.4394pt.
+<use compare_powv2d_z1z2-eps-converted-to.pdf>
+Package pdftex.def Info: compare_powv2d_z1z2-eps-converted-to.pdf used on input
+ line 3.
+(pdftex.def)             Requested size: 244.79782pt x 217.12877pt.
+) (./result.tex
+Package epstopdf Info: Source file: <cl_correlation_z1_z2.eps>
+(epstopdf)                    date: 2016-05-02 11:31:43
+(epstopdf)                    size: 15381 bytes
+(epstopdf)             Output file: <cl_correlation_z1_z2-eps-converted-to.pdf>
 
-Runaway argument?
-{\protect \numberline {\csname the\@captype \endcsname }{\ignorespaces \ETC.
-! Paragraph ended before \addcontentsline was complete.
-<to be read again> 
-                   \par 
-l.51 	}
-       
-? 
-! Extra }, or forgotten \endgroup.
-\@caption ... the#1\endcsname }{\ignorespaces #2}}
-                                                  \begingroup \@parboxrestor...
-l.51 	}
-       
-? 
-! Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.53 \end{figure}
-                 
-? 
-) (./result.tex [3 <./powermomen_correlation-eps-converted-to.pdf>])
-(./when.tex <vmode.pdf, id=42, 216.81pt x 361.35pt>
-File: vmode.pdf Graphic file (type pdf)
- <use vmode.pdf>
-Package pdftex.def Info: vmode.pdf used on input line 3.
-(pdftex.def)             Requested size: 244.79782pt x 408.01749pt.
-)
-(./error.tex [4 <./vmode.pdf>]
-! Missing { inserted.
-<to be read again> 
-                   ^
-l.4 ...^{ksz}+C_l^{\mr{CMB},N}}{C_^{kSZ,\Delta z}}
-                                                  (1+\frac{C^N_{\hat \Theta}...
+(epstopdf)                    date: 2016-05-02 16:11:45
+(epstopdf)                    size: 11748 bytes
+(epstopdf)             Command: <repstopdf --outfile=cl_correlation_z1_z2-eps-c
+onverted-to.pdf cl_correlation_z1_z2.eps>
+(epstopdf)             \includegraphics on input line 3.
+Package epstopdf Info: Output file is already uptodate.
 
+<cl_correlation_z1_z2-eps-converted-to.pdf, id=30, 578.16pt x 867.24pt>
+File: cl_correlation_z1_z2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use cl_correlation_z1_z2-eps-converted-to.pdf>
+Package pdftex.def Info: cl_correlation_z1_z2-eps-converted-to.pdf used on inpu
+t line 3.
+(pdftex.def)             Requested size: 244.79782pt x 367.18929pt.
+ [3 <./compare_powv2d_z1z2-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 26.
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 30--32
+\OT1/ptm/m/n/10 k modes, and we only lost small $\OML/cmm/m/it/10 k[]$ \OT1/ptm
+/m/n/10 modes in the
+ []
+
+) (./error.tex
+Package epstopdf Info: Source file: <Cl_sn_z1z2.eps>
+(epstopdf)                    date: 2016-05-03 09:46:07
+(epstopdf)                    size: 58206 bytes
+(epstopdf)             Output file: <Cl_sn_z1z2-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-03 11:27:54
+(epstopdf)                    size: 52610 bytes
+(epstopdf)             Command: <repstopdf --outfile=Cl_sn_z1z2-eps-converted-t
+o.pdf Cl_sn_z1z2.eps>
+(epstopdf)             \includegraphics on input line 3.
+Package epstopdf Info: Output file is already uptodate.
+ <Cl_sn_z1z2-eps-converted-to.pdf, id=50, 433.62pt x 722.7pt>
+File: Cl_sn_z1z2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Cl_sn_z1z2-eps-converted-to.pdf>
+Package pdftex.def Info: Cl_sn_z1z2-eps-converted-to.pdf used on input line 3.
+(pdftex.def)             Requested size: 244.79782pt x 407.99542pt.
+
+Overfull \hbox (5.76073pt too wide) in alignment at lines 18--20
+ [][][] []
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 27--37
+[]\OT1/ptm/m/n/10 In our case, we cal-cu-late $\OML/cmm/m/it/10 C[]$ \OT1/ptm/m
+/n/10 from CAMB [[]].
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 27--37
+\OML/cmm/m/it/10 C[]$\OT1/ptm/m/n/10 . $\OML/cmm/m/it/10 C[] \OT1/cmr/m/n/10 = 
+(\OML/cmm/m/it/10 ^^[[]^^R[]\OT1/cmr/m/n/10 )[]\OML/cmm/m/it/10 W[]$\OT1/ptm/m/
+n/10 ; where
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 27--37
+\OML/cmm/m/it/10 ^^[[] \OT1/cmr/m/n/10 = 8\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 7\O
+ML/cmm/m/it/10 ^^VK[]$ \OT1/ptm/m/n/10 is Sen-si-tiv-ity per beam solid an-
+ []
+
+) (./acknowledge.tex
+! Misplaced alignment tab character &.
+l.10 ...Ontario through the Ministry of Research &
+                                                   Innovation.
 ? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.5 \end{eqnarray}
-                  
-? 
-) (./ksz.bbl) [5] (./ksz.aux) ) 
+) (./ksz.bbl
+Underfull \hbox (badness 7203) in paragraph at lines 2--1
+[]\OT1/ptm/m/n/10 We ac-knowl-edge dis-cus-sions with Kendrick Smith,
+ []
+
+[4 <./cl_correlation_z1_z2-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 1.
+
+[5 <./Cl_sn_z1z2-eps-converted-to.pdf>]) [6] (./ksz.aux) ) 
 Here is how much of TeX's memory you used:
- 4449 strings out of 493304
- 57307 string characters out of 6139871
- 155467 words of memory out of 5000000
- 7774 multiletter control sequences out of 15000+600000
- 33028 words of font info for 86 fonts, out of 8000000 for 9000
+ 4471 strings out of 493304
+ 57782 string characters out of 6139871
+ 142738 words of memory out of 5000000
+ 7792 multiletter control sequences out of 15000+600000
+ 34712 words of font info for 88 fonts, out of 8000000 for 9000
  960 hyphenation exceptions out of 8191
- 38i,11n,26p,523b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/b
-ase/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/c
-mbsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
-es/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ksz.pdf (5 pages, 283462 bytes).
+ 38i,9n,26p,451b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/t
+exmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/times/utmri8a.pfb>
+Output written on ksz.pdf (6 pages, 335803 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
+ 151 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

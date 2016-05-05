@@ -10,7 +10,7 @@ Since the large scale information is essential for the estimate of
 peculiar velocity, we need to recover the information.
 %Since foregounds are spectrally smooth, when we are substracting them, 
 %we lose the information about smooth large scale structure of real signals. 
-iHowever, since large scale structure is correlated closely to the emergence of peculiar velocity, we need a method to estimate its distribution.
+However, since large scale structure is correlated closely to the emergence of peculiar velocity, we need a method to estimate its distribution.
 
 The cosmic tidal reconstruction is a kind of quadratic statistics developed to achieve this goal.
 Its main idea is using small scale filamentary structures to solve for the large scale tidal shear and gravitational potential.
@@ -24,7 +24,7 @@ $S(\bm{k})=e^{-k^2R^2/2}$,
 we take $R=1.25\ \mr{Mpc}/h$ \cite{2012:pen},
 to reduce the complicated non-linear effects on small scales.
 
-(2) Gaussianize the field, by taking 
+(2) Gaussianize the field, taking 
 $\delta_g=\mathrm{ln}(1+\delta)$. 
 This is to allieviate the problem that filter $W_i$ in (3) heavily weights high density regions.
 
@@ -32,7 +32,7 @@ This is to allieviate the problem that filter $W_i$ in (3) heavily weights high 
 ${\delta}^{w_i}_g(\bm{k})=W_i(\bm{k})\delta_g(\bm{k})$, 
 \begin{eqnarray}
 \label{eq:wi}
-W_i(\bm{k})=(\frac{P(k)f(k)}{P_{tot}^2(k)})^{\frac{1}{2}}\hat{k}_i\,
+W_i(\bm{k})=i (\frac{P(k)f(k)}{P_{tot}^2(k)})^{\frac{1}{2}}\frac{k_i}{k}\,
 \end{eqnarray}
 i indicates $\hat x,\hat y,\hat z$ directions, 
 $P_{tot}=P+P_{noise}$ is observed matter powerspectrum, 
