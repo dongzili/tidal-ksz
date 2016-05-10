@@ -41,15 +41,16 @@ $k_\parallel=0.08\ \mr{Mpc}/h$ and $0.15\ \mr{Mpc}/h$ respectively.
 The observed 21cm field after foreground subtraction is then given by 
 \begin{eqnarray}
 \label{eq:fs}
-\delta_{fs}(\bm{k})=\delta(\bm{k})W_{fs}(k_\parallel)\Theta(k_c-k),
+\delta_{fs}(\bm{k})=\delta(\bm{k})W_{fs}(k_\parallel)J(k_c-k),
 \end{eqnarray}
 where $\delta(\bm{k})$ is the original density field, 
 %$W_{fs}$ accounts for 
 %the effect of foreground subtraction and 
-$\Theta(x)$ equals 0 for $x<0$ and equals 1 elsewhere.
+$J(x)$ equals 0 for $x<0$ and equals 1 elsewhere.
 
 After that, we reconstruct the large scale fields $\hat \kappa_c$ from $\delta_{fs}$ via
 cosmic tidal reconstruction. 
 We use $\hat \kappa_c$ to obtain an estimate radial velocity field $\hat v_z^{tide}$ follow Eq.(\ref{eq:v}).
-We reconstruct the kSZ signal $\hat \Theta_{kSZ}$ following Eq.(\ref{eq:ksz}) and compare it with kSZ signal.
+We reconstruct the kSZ signal $\hat \Theta^{tide}$ following Eq.(\ref{eq:ksz}) and compare it with kSZ signal.
 
+To show the effects of tidal reconstruction, we go through the same procedure for $\delta_fs$ and get $\hat \Theta{fs}$. 

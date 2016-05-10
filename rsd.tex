@@ -1,0 +1,117 @@
+We analyze the influence of linear redshift space distortion (RSD) in kSZ signal reconstruction. 
+%After knowing this, we provide the very interesting result of taking advantage of the effect to get better cross correlation(Fig.\ref{fig:r}).
+Equipped with it, we provide the very interesting results of adding RSD to simulations, 
+and get better cross correlation (Fig.\ref{fig:r}). 
+We also discuss another important advantage RSD brings.
+
+The redshift distortions results from the radial peculiar velocity, 
+which leads to a misjudgement of distance referring to Hubble flow.
+%$\chi^{RSD}=\chi+\frac{v_z}{H}$, 
+%where $\chi$ is the radial distance, $v_z$ is the parallel peculiar velocity.
+
+In linear regions, it will induce an extra density contraction in redshift space:
+\begin{eqnarray}
+\label{eq:rsd}
+\delta^{RSD}(\bm{k})\approx (1+f\frac{k_z^2}{k^2})\delta(\bm{k})\,
+\end{eqnarray}
+where again $f=\frac{d\mathrm{ln}D}{d\mathrm{ln}a}$, 
+with the cosmological parameter we choose, $f=1.5, z\sim1; f=0.96, z\sim2$. 
+
+Therefore, the easiest way to substract the linear RSD is to 
+devide the $\delta^{RSD}$ we have by $1+f\frac{k_z^2}{k^2}$ 
+before all the calculations.
+
+However, if we leave it here, since our foreground is in the same direction as the RSD, we will see some fortunate good effects.
+%However, in our case, we have the foreground of the same direction as the RSD, we just leave it here and see the miracular effect it brings. 
+We discuss both the case of non-tidal reconstruction, 
+and tidal reconstruction, and they are improved in different ways. 
+
+Note: in the following argument, small k refers to $k\sim 0.01h/Mpc$, larger k refers to $k>0.1h/Mpc$, the powerspectrum of latter is around a magnitude smaller than the former.
+
+(1) $\hat \Theta$ with RSD foreground substracted 21cm density field $\delta_{fs}^{RSD}$.
+
+Following Eq.(\ref{eq:v}), we can quickly write down the change for v(k):
+\begin{eqnarray}
+    \hat v_{z,fs}^{RSD}(\bm{k})\propto \delta^{RSD}_{fs}(\bm{k})\frac{k_z}{k^2}\\
+    =\hat v_{z,fs}(\bm{k})(1+f\frac{k_z^2}{k^2})
+\end{eqnarray}
+The new term gives heavier weigh to modes with $k_\parallel\gg k_\perp$.
+
+The real kSZ signal in Fourier space reads:
+\begin{eqnarray}
+    \Theta(\bm{k_\perp})\equiv \Theta(k_x,k_y,0)\propto\int d^3k&\delta(\bm{k_\perp}-\bm{k}) v_z(\bm{k})\\
+    \propto\int d^3k&\delta(\bm{k_\perp}-\bm{k})\delta(\bm{k})\frac{k_z}{k^2}\nonumber
+\end{eqnarray}
+For foreground substracted field the kSZ signal in Fourier space becomes:
+\begin{eqnarray}
+    \Theta_{fs}^{RSD}(\bm{k_\perp})
+%    \propto\int d^3k&\delta(\bm{k_\perp}-\bm{k}) v_{z,fs}^{RSD}(\bm{k})\\
+    \propto\int d^3k&\delta(\bm{k_\perp}-\bm{k})\delta_{fs}(\bm{k})\frac{k_z}{k^2}(1+f\frac{k_z^2}{k^2})
+\end{eqnarray}
+Notice, the first $\delta$ we use the original field, since this is the quantity we want to obtain in real cross correlating procedures.
+
+{\it seems to need a powerspectrum of $P_\delta$}
+
+When $k_\perp$ is small: 
+
+In original kSZ signal, $\delta(\bm{k_\perp}-\bm{k}),\delta(\bm{k}),\frac{k_z}{k^2}$ reaches peak nearly at the same point when both $k_\perp,k\parallel$ are small, and this dominates the signal. 
+However, in the case of foreground substracted field, 
+$\delta_{fs}$ is seriously reduced at small $k_\parallel$, 
+and $\Theta_{fs}$ hense comes more from larger $k_\parallel$ 
+which has little correlations with the original kSZ.
+
+Fortunately, the RSD gives another term $1+f\frac{k_z^2}{k^2}$, 
+which give additional weigh to smaller $k_\parallel$ 
+and partly compensate the weigh loss in foreground substraction. 
+Therefore, we could have slightly better correlations in small $k_\perp$.
+
+When $k_\perp$ is large:
+
+$\delta(\bm{k_\perp}-\bm{k})$ and $\delta(\bm{k})$ 
+no longer reach the peak simultaneously, 
+and $\Theta$ comes from sum of a series of $k\prime$ from small to larger, 
+hense the foreground substraction does not matter as much as in the case of $k_\parallel$, 
+so both RSD and non-RSD case will have cross correlation.
+
+(2) RSD influence to tidal reconstruction
+
+After adding linear RSD, Eq.(\ref{eq:gamma}), each term will have two new weigh in Fourier space.
+
+For simplicity, 
+we define a demonstrator $\hat\gamma_{i,j}^{RSD}(\bm{x})\equiv\delta_{RSD}^{w_i}(\bm{x})\delta_{RSD}^{w_j}(\bm{x})$. 
+
+In Fourier space, it becomes:
+\begin{subequations}
+\begin{align}
+\hat\gamma_{RSD}(\bm{k})    
+=&\int \frac{d^3k\prime}{(2\pi)^3}\delta^{w_i}(\bm{k}-\bm{k}\prime)\delta^{w_j}(\bm{k}\prime)\label{eq:rsd1}\\
+ &(1+f\frac{(\bm{k}-\bm{k}\prime)_z^2}{(\bm{k}-\bm{k}\prime)^2})(1+f\frac{k\prime_z^2}{k\prime^2})\nonumber\\
+=&\int \frac{d^3k\prime}{(2\pi)^3}
+\delta_{fs}(\bm{k}-\bm{k}\prime)S(|\bm{k}-\bm{k}\prime|)\delta_{fs}(\bm{k}\prime)S(k\prime)\label{eq:rsd2}\\
+&\frac{(\bm{k}-\bm{k}\prime)_i}{|\bm{k}-\bm{k}\prime|}\frac{k\prime_j}{k\prime}
+(1+f\frac{(\bm{k}-\bm{k}\prime)_z^2}{(\bm{k}-\bm{k}\prime)^2})(1+f\frac{k\prime_z^2}{k\prime^2})\nonumber
+\end{align}
+\end{subequations}
+From \eqref{eq:rsd1} we can see that the shear estimators now favor 
+information from $\delta(k)$ with $k\_parallel\gg k_\perp$ more than before.
+
+From \eqref{eq:rsd2} we see the influence on different gamma varies. 
+The amplification will be maximized 
+when the shape of the two new weigh $(1+f\frac{k_z}{k^2}$ 
+at most approches other terms, 
+i.e. when $i=j=z$. 
+Therefore $\hat\gamma_z$ will be influenced most, followed by $\hat\gamma_x,\hat\gamma_y$
+
+In all, the RSD effect is a natual filter that weighs more the information on z direction, and down-weigh the information of large $k_\perp$ to small $k_\perp$.
+
+Therefore, if we use 2D tidal reconstruction, RSD will cause a noticeable degration on the reconstruction (% refer to mao's paper)
+If we have RSD yet not have foreground, apply 3D tidal reconstruction, 
+RSD may cause slight degration with  
+However, fortunately, 
+we have foreground which happen to be in the same direction with RSD. 
+For z directions, only small $k_\parallel$ modes are lost, which do not matter much in the reconstruction;
+while for other directions sufficient amount of modes with $k_\perp$ from small to large are lost, 
+and this leads to more inaccurate reconstruction on $k_\perp$ direction. 
+And RSD serve as a natural filter to deal with that. \ref{fig:v}
+
+

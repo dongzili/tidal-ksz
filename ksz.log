@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.11)  5 MAY 2016 12:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.11)  8 MAY 2016 08:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -299,10 +299,9 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-(./author.tex) (./abstract.tex
+(./abstract.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 7.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 7.
@@ -321,14 +320,14 @@ l.51 \maketitle
 ? 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
-(./introduction.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+(./introduction.tex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 (./tide.tex
-Overfull \hbox (30.18655pt too wide) in alignment at lines 48--63
+Overfull \hbox (30.18655pt too wide) in alignment at lines 49--64
  [][][] []
  []
 
 
-Overfull \hbox (29.81676pt too wide) in alignment at lines 65--70
+Overfull \hbox (29.81676pt too wide) in alignment at lines 66--71
  [][][] []
  []
 
@@ -344,7 +343,7 @@ nverted-to.pdf compare_powv2d_z1z2.eps>
 (epstopdf)             \includegraphics on input line 3.
 Package epstopdf Info: Output file is already uptodate.
 
-<compare_powv2d_z1z2-eps-converted-to.pdf, id=29, 1172.38pt x 1039.885pt>
+<compare_powv2d_z1z2-eps-converted-to.pdf, id=30, 1172.38pt x 1039.885pt>
 File: compare_powv2d_z1z2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use compare_powv2d_z1z2-eps-converted-to.pdf>
@@ -364,7 +363,7 @@ onverted-to.pdf cl_correlation_z1_z2.eps>
 (epstopdf)             \includegraphics on input line 3.
 Package epstopdf Info: Output file is already uptodate.
 
-<cl_correlation_z1_z2-eps-converted-to.pdf, id=30, 578.16pt x 867.24pt>
+<cl_correlation_z1_z2-eps-converted-to.pdf, id=31, 578.16pt x 867.24pt>
 File: cl_correlation_z1_z2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use cl_correlation_z1_z2-eps-converted-to.pdf>
@@ -380,9 +379,9 @@ Underfull \hbox (badness 3746) in paragraph at lines 30--32
 [3 <./compare_powv2d_z1z2-eps-converted-to.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 32.
+ on input line 49.
 
-) (./error.tex
+) (./rsd.tex [4 <./cl_correlation_z1_z2-eps-converted-to.pdf>]) (./error.tex
 Package epstopdf Info: Source file: <Cl_sn_z1z2.eps>
 (epstopdf)                    date: 2016-05-03 09:46:07
 (epstopdf)                    size: 58206 bytes
@@ -393,7 +392,8 @@ Package epstopdf Info: Source file: <Cl_sn_z1z2.eps>
 o.pdf Cl_sn_z1z2.eps>
 (epstopdf)             \includegraphics on input line 3.
 Package epstopdf Info: Output file is already uptodate.
- <Cl_sn_z1z2-eps-converted-to.pdf, id=50, 433.62pt x 722.7pt>
+
+<Cl_sn_z1z2-eps-converted-to.pdf, id=63, 433.62pt x 722.7pt>
 File: Cl_sn_z1z2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Cl_sn_z1z2-eps-converted-to.pdf>
@@ -404,8 +404,7 @@ Overfull \hbox (5.76073pt too wide) in alignment at lines 18--20
  [][][] []
  []
 
-[4 <./cl_correlation_z1_z2-eps-converted-to.pdf> <./Cl_sn_z1z2-eps-converted-to
-.pdf>]
+
 Underfull \hbox (badness 1424) in paragraph at lines 27--37
 []\OT1/ptm/m/n/10 In our case, we cal-cu-late $\OML/cmm/m/it/10 C[]$ \OT1/ptm/m
 /n/10 from CAMB [[]].
@@ -424,7 +423,7 @@ Underfull \hbox (badness 1331) in paragraph at lines 27--37
 ML/cmm/m/it/10 ^^VK[]$ \OT1/ptm/m/n/10 is Sen-si-tiv-ity per beam solid an-
  []
 
-) (./acknowledge.tex
+[5 <./Cl_sn_z1z2-eps-converted-to.pdf>]) (./acknowledge.tex
 ! Misplaced alignment tab character &.
 l.10 ...Ontario through the Ministry of Research &
                                                    Innovation.
@@ -434,41 +433,42 @@ Underfull \hbox (badness 7203) in paragraph at lines 2--1
 []\OT1/ptm/m/n/10 We ac-knowl-edge dis-cus-sions with Kendrick Smith,
  []
 
-[5]) [6] (./ksz.aux) ) 
+) [6] (./ksz.aux) ) 
 Here is how much of TeX's memory you used:
- 4471 strings out of 493304
- 57793 string characters out of 6139871
- 143763 words of memory out of 5000000
- 7792 multiletter control sequences out of 15000+600000
- 34712 words of font info for 88 fonts, out of 8000000 for 9000
+ 4480 strings out of 493304
+ 57876 string characters out of 6139871
+ 162220 words of memory out of 5000000
+ 7801 multiletter control sequences out of 15000+600000
+ 33535 words of font info for 87 fonts, out of 8000000 for 9000
  960 hyphenation exceptions out of 8191
- 38i,9n,26p,451b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.en
-c}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
-s/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ksz.pdf (6 pages, 335842 bytes).
+ 38i,9n,26p,451b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}<
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
+mb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ksz.pdf (6 pages, 340927 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
+ 155 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

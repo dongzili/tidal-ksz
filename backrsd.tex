@@ -1,0 +1,36 @@
+We analyze the influence of linear redshift space distortion (RSD) in kSZ signal reconstruction. 
+%After knowing this, we provide the very interesting result of taking advantage of the effect to get better cross correlation(Fig.\ref{fig:r}).
+Equipped with it, we provide the very interesting results of adding RSD to simulations, 
+and get better cross correlation (Fig.\ref{fig:r}). 
+We also discuss another important advantage RSD brings.
+
+The redshift distortions results from the radial peculiar velocity, 
+which leads to a misjudgement of distance referring to Hubble flow.
+%$\chi^{RSD}=\chi+\frac{v_z}{H}$, 
+%where $\chi$ is the radial distance, $v_z$ is the parallel peculiar velocity.
+
+In linear regions, it will induce an extra density contraction in redshift space:
+\begin{eqnarray}
+\label{eq:rsd}
+\delta^{RSD}(\bm{k})\approx (1+f\mu(\bm{k})^2)\delta(\bm{k})\,
+\end{eqnarray}
+where $\mu(\bm{k})=\hat{k}\hat{v_z}, =\frac{k_z}{k}$,
+and again $f=\frac{d\mathrm{ln}D}{d\mathrm{ln}a}$, 
+with the cosmological parameter we choose, $f=1.5, z\sim1; f=0.96, z\sim2$. 
+
+Therefore, the easiest way to substract the linear RSD is to 
+devide the $\delta^{RSD}$ we have by $(1+f\mu(\bm{k})^2$ 
+before all the calculations.
+
+However, if we leave it here, since our foreground is in the same direction as the RSD, we will see some miracularly good effects.
+%However, in our case, we have the foreground of the same direction as the RSD, we just leave it here and see the miracular effect it brings. 
+We discuss both the case of non-tidal reconstruction group, 
+and tidal reconstruction group, each case we will get better results.
+
+(1) Building $\hat \Theta$ with RSD foreground substracted 21cm density field $\delta_fs^{RSD}.
+\begin{eqnarray}
+    \hat v_z^{RSD}(\bm{k})=\hat v_z(\bm{k})(1+f\mu(\bm{k})^2
+    \propto \delta(\bm{k})(1+f\mu(\bm{k})^2\frac{k_z}{k^2}
+\end{eqnarray}
+
+
